@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import axios from "axios";
+import { useEffect, useState } from "react";  ``
 
 const News = () => {
   const [news, setNews] = useState([]); // Initialize as an array
