@@ -1,0 +1,47 @@
+/* Navbar container styling */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navbar links list styling */
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual navbar link item */
+.navbar-links li {
+  margin-left: 20px;
+}
+
+/* Navbar link styling */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Styling for active navbar link */
+.nav-link.active {
+  font-weight: bold;
+  color: #ff6347; /* Active link color */
+}
+
+/* Hover effect on navbar links */
+.nav-link:hover {
+  color: #ff6347; /* Hover color */
+}

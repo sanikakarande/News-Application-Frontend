@@ -1,0 +1,116 @@
+/*General body styling for background and fonts*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styling for the page layout */
+  .container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Row styling to align cards in a grid */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  /* Individual card styling */
+  .card {
+    position: relative;
+    width: 18rem;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffffff, #f8f8f8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Card image styling */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Card body styling */
+  .card-body {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Headline styling */
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+  
+  /* Description styling */
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Button styling */
+  .btn {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 0.6rem 1.2rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: scale(1.1);
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Responsive design for mobile screens */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  }
+  

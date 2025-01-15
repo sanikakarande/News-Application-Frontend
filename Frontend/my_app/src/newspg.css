@@ -1,0 +1,28 @@
+.hero-banner {
+    background: url('https://via.placeholder.com/1920x400') center/cover no-repeat;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-banner h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .news-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .image {
+    margin-top: 60px;  /* Adjust the margin to avoid overlap */
+}
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
