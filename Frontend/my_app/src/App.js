@@ -6,10 +6,15 @@ import Newspage from'./component/Newspage.js';
 import Home from "./component/Home.js";
 import Category from "./component/category.js";
 import CatComp from "./component/CatComp.js";
+import Contact from './component/Contact.js';
+import Trend from './component/Trend.js'; 
+import Customize from './component/Customize.js';
 import './App.css';
 import './nav.css';
 import './news.css';
 import './newspg.css';
+import './cont.css';
+import './trend.css';
 
 function App() {
   return (
@@ -25,9 +30,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/:category" element={<Category />} />
         <Route path="/:Catcomp" element={<CatComp/>} />
+        <Route path="/trending" element={<Trend />} />
+        <Route path="/ai-insights" element={<Customize />} />
+
       </Routes>
-      
+      <Contact />
     </Router>
+    
   );
 }
 
